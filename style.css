@@ -180,15 +180,36 @@ header {
   width: 512px;
   text-align: start;
 }
-.p-heading {
+.p-heading,
+.info-heading {
   font-size: 20px;
   margin-bottom: 5px;
 }
-.p-text:first-of-type {
-  margin-bottom: 20px;
+.p-heading:last-of-type,
+.info-heading:nth-of-type(2n) {
+  margin-top: 20px;
 }
 .c-container {
   width: 800px;
   margin: 0 auto;
   display: flex;
+}
+.info-box {
+  width: 400px;
+  text-align: start;
+}
+.mail-tel {
+  width: 150px;
+  margin: 0 auto;
+}
+.sns {
+  width: 190px;
+  margin: 0 auto;
+}
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.sns-icon:last-child {
+  margin-right: 0;
 }
