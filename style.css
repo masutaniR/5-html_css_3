@@ -157,3 +157,37 @@ header {
 #profile {
   background-color: #eceff1;
 }
+.p-container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+.face-img-box {
+  width: 512px;
+  display: flex;
+  align-items: center;
+}
+.face-img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+.profile-box {
+  width: 512px;
+  text-align: start;
+}
+.p-heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.p-text {
+  font-size: 16px;
+  color: #000;
+}
+.p-text:first-of-type {
+  margin-bottom: 20px;
+}
