@@ -131,3 +131,26 @@ header {
   background-size: cover;
   background-position: center;
 }
+.f-container {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+.strength-box {
+  width: 320px;
+  margin-right: 10px;
+}
+.strength-box:last-child {
+  margin-right: 0;
+}
+.s-icon {
+  font-size: 60px;
+}
+.s-heading {
+  font-size: 20px;
+  color: #000;
+  margin: 10px 0;
+}
+.s-text {
+  text-align: start;
+}
