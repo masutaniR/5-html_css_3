@@ -154,3 +154,6 @@ header {
 .s-text {
   text-align: start;
 }
+#profile {
+  background-color: #eceff1;
+}
